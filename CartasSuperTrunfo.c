@@ -29,7 +29,7 @@ int main() {
     scanf("%s", codigo);
     
     printf("Nome da cidade: ");
-    scanf(" %49[^"]", nome);  // Permite entrada com espaços
+    scanf(" %49[^\"]", nome);  // Permite entrada com espaços
     
     printf("Populacao: ");
     scanf("%d", &populacao);
