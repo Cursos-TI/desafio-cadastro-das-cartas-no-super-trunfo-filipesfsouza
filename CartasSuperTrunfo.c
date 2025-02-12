@@ -45,7 +45,7 @@ int main() {
     
     // Exibindo os dados cadastrados
     printf("\nDados da cidade cadastrada:\n");
-    printf("Codigo: %s\n", codigo);
+    printf("Codigo: %s\n", codigo_cidade);
     printf("Nome: %s\n", nome);
     printf("Populacao: %d habitantes\n", populacao);
     printf("Area: %.2f km2\n", area);
